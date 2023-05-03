@@ -1,14 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  return (
-    <div className="navbar">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/memelist">View List</NavLink>
-      <NavLink to="/memeimages">Meme Images</NavLink>
-    </div>
-  );
+  const links = ["home", "memelist", "memeimage"];
+  return (<nav>
+  <a href="#home">Home    </a>
+  <a href="#memelist">List     </a>
+  <a href="#memeimage">Images   </a>
+  </nav>);
 }
 
 export default NavBar;

@@ -1,22 +1,23 @@
-import React from "react";
-import { Route, Switch, BrowserRouter as Router } from "react-router-dom";
-import NavBar from "./NavBar";
-import Home from "./Home";
-import MemeList from "./components/MemeList.js";
+import React, { useState, useEffect } from "react";
 import Home from "./components/Home";
-import 
+import NavBar from "./components/NavBar";
 
 function App() {
-  return (
-      <Router>
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/memelist" component={MemeList} />
-          <Route exact path="/memeimages" component={MemeImage} />
-        </Switch>
-      </Router>
+  const [peopleInSpace, setPeopleInSpace] = useState([]);
+
+  useEffect(() => {
+    fetch("https://meme-api.com/gimme/50")
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data.memes);
+      });
+  }, []);
+
+  return(
+    <div>
+      <NavBar/>
+      <Home Introduction={Home}/>
+    </div>
   );
 }
-
-export default App;
+export default  App

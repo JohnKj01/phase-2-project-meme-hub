@@ -1,0 +1,29 @@
+nav {
+  background-color: #7bcaec;
+  color: #e01c1c;
+  height: 70px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+ul {
+  list-style-type: armenian;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  color: #f40f0f;
+  text-decoration: none;
+  font-size: x-large;
+}
+img {
+    width: 70%;
+    height: auto;
+    
+}

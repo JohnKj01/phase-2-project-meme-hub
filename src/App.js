@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import MemeList from "./components/MemeList";
 import MemeImage from "./components/MemeImage";
+import "./components/App.css"
+
 
 
 function App() {

@@ -5,8 +5,8 @@ function NavBar() {
   return (
     <div className="navbar">
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/memelist">View List</NavLink>
-      <NavLink to="/memeimages">Meme Images</NavLink>
+      <NavLink to="/memelist">MemeList</NavLink>
+      <NavLink to="/memeimage">Meme Images</NavLink>
     </div>
   );
 }

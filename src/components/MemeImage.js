@@ -15,7 +15,7 @@ function MemeImage() {
     <div id = "memeimage">
       {memes.map((meme) => (
         <div key={meme.postLink}>
-          <h3>{meme.title}</h3>
+          <h3>{meme.title}:</h3>
           <img src={meme.url} alt={meme.title} />
           <p>Author: {meme.author}</p>
         </div>

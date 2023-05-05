@@ -9,11 +9,10 @@ nav {
   justify-content: space-between;
 }
 
-
-body{
-    align-self: center;
-    align-content: space-around;
-    background-color: rgb(204, 203, 203);
+body {
+  align-self: center;
+  align-content: space-around;
+  background-color: rgb(204, 203, 203);
 }
 
 ul {
@@ -31,13 +30,9 @@ a {
   color: #eff4f6;
   text-decoration: none;
   font-size: x-large;
-
 }
 img {
-    width: 70%;
-    height: auto;
-    align-self: center;
-}
-memelist {
-
+  width: 70%;
+  height: auto;
+  align-self: center;
 }

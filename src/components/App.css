@@ -1,23 +1,28 @@
 nav {
-  background-color: #1b08ee;
-  color: #d2d2d2;
+  background-color: #1d1a1d;
+  justify-content:button;
+  color: #48e4df58;
   height: 70px;
   width: 100%;
-  border-top: 1px solid #000000;
+  border-top: 1px solid #9d90c3;
   border-bottom: 1px solid #000000;
   overflow: hidden;
-  justify-content: space-between;
+  padding: 10px;
+  
+}
+image {
+  align-self: center;
 }
 
 body {
-  align-self: center;
+  align-content: center;
   align-content: space-around;
   background-color: rgb(204, 203, 203);
 }
 
 ul {
   list-style-type: armenian;
-  margin: 0;
+  margin: 30px;
   padding: 0;
 }
 

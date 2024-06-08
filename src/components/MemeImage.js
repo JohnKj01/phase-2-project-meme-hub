@@ -12,7 +12,7 @@ function MemeImage() {
   }, []);
 
   return (
-    <div id = "memeimage">
+    <card id = "memeimage">
       {memes.map((meme) => (
         <div key={meme.postLink}>
           <h3>{meme.title}:</h3>
@@ -20,7 +20,7 @@ function MemeImage() {
           <p>Author: {meme.author}</p>
         </div>
       ))}
-    </div>
+    </card>
   );
 }
 

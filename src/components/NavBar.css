@@ -1,4 +1,4 @@
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   #navRes {
     display: none;
   }
@@ -6,7 +6,6 @@
     display: none;
   }
 }
-
 #navFix {
   position: sticky;
   top: 0;
@@ -22,4 +21,4 @@
   #resumeBtn {
     display: none;
   }
-}
+} */

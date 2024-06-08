@@ -1,14 +1,17 @@
 nav {
-  background-color: #1d1a1d;
-  justify-content:button;
+  background-color: #130313;
   color: #48e4df58;
-  height: 70px;
-  width: 100%;
-  border-top: 1px solid #9d90c3;
+  height: auto;
+  width: 30%;
+  border-top: 10% solid #9d90c3;
   border-bottom: 1px solid #000000;
-  overflow: hidden;
-  padding: 10px;
-  
+  overflow: auto;
+  padding-left: 35%;
+  padding-right: 35%;
+  overflow: auto;
+  position: fixed;
+  align-content: space-between;
+  align-items: flex-end;
 }
 image {
   align-self: center;
@@ -17,27 +20,46 @@ image {
 body {
   align-content: center;
   align-content: space-around;
-  background-color: rgb(204, 203, 203);
 }
 
 ul {
   list-style-type: armenian;
-  margin: 30px;
-  padding: 0;
+  padding-top: 5%;
+  width: 90%;
+
 }
 
 li {
   display: list-item;
-  align-items: center;
+  columns: 2;
 }
 
 a {
-  color: #eff4f6;
-  text-decoration: none;
+  color: #e9e2e2;
+  text-decoration:overline;
   font-size: x-large;
+  ;
+  
 }
 img {
-  width: 70%;
+  width: 60%;
   height: auto;
   align-self: center;
+  padding-left: 20%;
+}
+div:home {
+  padding-top: 100px;
+}
+div #memelist {
+  width: 90%;
+  padding-left: 5%;
+}
+div #home {
+  width: 90%;
+  padding-left: 5%;
+}
+h3,p {
+  width: 90%;
+  padding-left: 5%;
+
 }

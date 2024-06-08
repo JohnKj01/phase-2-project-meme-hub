@@ -13,13 +13,11 @@ function MemeList() {
   return (
     <div id="memelist">
       <h1>Meme List</h1>
-      <p>
         <ul>
           {memes.map((meme) => (
             <li key={meme.postLink}>{meme.title}</li>
           ))}
         </ul>
-      </p>
     </div>
   );
 }
